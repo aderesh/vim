@@ -1,8 +1,12 @@
-" windows:
+" windows (download repo and link):
 " clone this repo to your %userrofile%
 " open Command Prompt in Admin mode 
 " cd %userprofile%
 " mklink /h ".vimrc" "vim/.vimrc"
+
+"windows ps (download .vimrc only)
+" cd %userprofile%
+" Invoke-WebRequest -Uri https://raw.githubusercontent.com/aderesh/vim/main/.vimrc -OutFile .vimrc
 
 set clipboard+=unnamedplus
 
